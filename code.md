@@ -3,9 +3,7 @@
 ## Order
 
 ```csharp
-[public|protected|private|internal]
-[abstract|virtual|override|sealed]
-static readonly [const] Name
+[public|protected|private|internal] [abstract|virtual|override|sealed] [static] [readonly] [const] Name
 ```
 
 ## Variables & access modifiers
@@ -115,4 +113,13 @@ keyword
 {
 	// Code
 }
+```
+
+## Attributes
+
+```csharp
+[Attribute1]
+[Attribute2]
+[Attribute3]
+class/field/etc.
 ```
