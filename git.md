@@ -5,29 +5,33 @@
 
 ### Starter
 
-#### `[ADD]`
+#### `Add`
 
 Use if file(s) were added
 
-#### `[CHANGE]`
+#### `Change`
 
-Use if file(s) has been changed/edited/updated
+Use if file(s) were changed/edited/updated
 
-#### `[REMOVE]`
+#### `Rename`
+
+Use if file(s) were renamed
+
+#### `Remove`
 
 Use if  file(s) were removed
 
-#### `[FIX]`
+#### `Fix`
 
 Use if file(s) were not intentionally changed, but some issue was fixed
 
 ### Description
 
-#### If `[ADD]`, `[REMOVE]`
+#### If `Add`, `Remove`
 
 Provide a name (or team-recognizable alias) for the affected file(s)
 
-#### If  `[CHANGE]`,  `[FIX]`
+#### If  `Change`,  `Fix`
 
 Address or describe the resolved problem or the change of file(s)
 
